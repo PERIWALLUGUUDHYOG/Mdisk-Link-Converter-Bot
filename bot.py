@@ -1,3 +1,5 @@
+#@AM_ROBOTS
+
 from os import environ
 import os
 import time
@@ -29,12 +31,12 @@ bot = Client('Doodstream bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi, {message.chat.first_name} !!**\n\n"
-        "**I am your Personal MDisk Link Converter Bot 🤗, Made by @Am_Robots💞 Send me a MDisk Post to see the Magic 😅**")
+        "**I am your Personal MDisk Link Converter Bot 🤗, Made by @hasleyMrx139💞 Send me a MDisk Post to see the Magic Powerd By AM_ROBOTS 😅**")
     
 @bot.on_message(filters.text & filters.private)
 async def Doodstream_uploader(bot, message):
     new_string = str(message.text)
-    conv = await message.reply("Wait Bnaraha Hu Tab Tak @Am_Robots Check Karo✋")
+    conv = await message.reply("Wait Bnaraha Hu Tab Tak @hasleyMrx139 Check Karo Powerd By AM_ROBOTS✋")
     dele = conv["message_id"]
     try:
         Doodstream_link = await multi_Doodstream_up(new_string)
@@ -47,7 +49,7 @@ async def Doodstream_uploader(bot, message):
 @bot.on_message(filters.photo & filters.private)
 async def Doodstream_uploader(bot, message):
     new_string = str(message.caption)
-    conv = await message.reply("Wait Bnaraha Hu Tab Tak @Am_Robots Check Karo✋")
+    conv = await message.reply("Wait Bnaraha Hu Tab Tak @hasleyMrx139 Check Karo Powerd By AM_ROBOTS✋")
     dele = conv["message_id"]
     try:
         Doodstream_link = await multi_Doodstream_up(new_string)
@@ -164,3 +166,4 @@ async def addFooter(str):
     return str + footer
 
 bot.run()
+#8769Anurag
