@@ -23,7 +23,7 @@
         },
         "CUSTOM_FOOTER": {
             "description": "Enter your Custom Footer",
-            "value": "eg. MOVIES_ZILAA"
+            "value": "eg. @MOVIES_ZILAA"
         },
         "MDISK_TOKEN": {
             "description": "Put your MDisk API key here",
